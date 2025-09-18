@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="杀戮尖塔教程（兼容）"
+run/main_scene="uid://ddeb0jwftmsa7"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://bw6c0rgnuoo0"
+
+[display]
+
+window/size/viewport_width=256
+window/size/viewport_height=144
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
 
 [dotnet]
 
@@ -20,5 +29,6 @@ project/assembly_name="杀戮尖塔教程（兼容）"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
