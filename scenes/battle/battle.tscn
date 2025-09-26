@@ -22,7 +22,7 @@ collision_layer = 2
 position = Vector2(128, 50)
 shape = SubResource("RectangleShape2D_7gynk")
 
-[node name="Battle UI" type="CanvasLayer" parent="."]
+[node name="Battle UI" type="CanvasLayer" parent="." groups=["ui_layer"]]
 
 [node name="Hand" type="HBoxContainer" parent="Battle UI"]
 anchors_preset = 7
